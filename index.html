@@ -8,16 +8,7 @@
   
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
-  Score
-  Rules
 
-  You Picked
-  The House Picked
-
-  You Win
-  You Lose
-
-  Play Again
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -27,11 +18,46 @@
 </head>
 <body>
 
+<main class="game">
+  <nav class="game-nav">
+    <div class="game-nav__title-container">
+      <h1 class="game-nav__title"><span>Rock</span><span>Paper</span><span>Scissors</span></h1>
+    </div>
+    <div class="game-nav__score-container">
+      <h2 class="score-title">Score</h2>
+      <span class="score-number"></span>
+    </div>
+  </nav>
+  <section class="game-board">
 
-  
-  <div class="attribution">
+    <div class="game-board__upper-background">
+      <div class="circle circle-one" id="circle-one">
+        <img class="icon-one" id="icon-one" src="" alt="">
+      </div>
+      <div class="circle circle-two" id="circle-two">
+        <img class="icon-one" id="icon-one" src="" alt="">
+      </div>
+      <div class="circle circle-three" id="circle-three">
+        <img class="icon-one" id="icon-one" src="" alt="">
+      </div>
+    </div>
+    <div class="game-board__bottom"></div>
+  </section>
+
+</main>
+Score
+Rules
+
+You Picked
+The House Picked
+
+You Win
+You Lose
+
+Play Again
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>

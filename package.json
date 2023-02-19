@@ -1,0 +1,15 @@
+{
+    "name": "paper-scissors",
+    "author": {
+        "name": "Amaury Franssen",
+        "url": "https://github.com/ExploryKod"
+    },
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+    },
+    "scripts": {
+      "sass": "sass stylesheets/index.scss stylesheets/index.css"
+    }
+}
+  
